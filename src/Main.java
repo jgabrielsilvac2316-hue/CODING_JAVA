@@ -7,11 +7,15 @@ static void main() {
     int Nmat;
     int NPort;
     int Nhist;
+    double media;
+
     System.out.println("Matemática:");
     Nmat = leitor.nextInt();
     System.out.println("Portugues:");
     NPort = leitor.nextInt();
     System.out.println("Historia:");
     Nhist = leitor.nextInt();
+    media = (Nmat + NPort + Nhist)/3;
+    System.out.println("média:" + media);
 }
 
