@@ -17,5 +17,14 @@ static void main() {
     Nhist = leitor.nextInt();
     media = (Nmat + NPort + Nhist)/3;
     System.out.println("média:" + media);
-}
 
+    if (media > 7) {
+        System.out.println("Aprovado");
+    }
+    if ( media < 6 && media > 4) {
+        System.out.println("Recuperação");
+    }
+    if (media < 4) {
+        System.out.println("Reprovado");
+    }
+}
